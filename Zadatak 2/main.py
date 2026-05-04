@@ -11,4 +11,6 @@ outer_func()
 my_func = outer_func()
 print(my_func)
 print(my_func.__name__)
-#my_func()
+my_func()
+
+# poruka je stampana samo pozivom my_func() ovako ce biti stampano samo ime funkcije
